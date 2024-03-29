@@ -1,0 +1,52 @@
+
+.button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  border-radius: 10px;
+  font-weight: 500;
+  padding: 1rem 2rem;
+  transition: .5s;
+
+  &-success {
+    background-color: green;
+  }
+
+  &-success:hover {
+    background-color: rgb(14, 113, 14);
+  }
+
+  &-danger {
+    background-color: red;
+  }
+
+  &-danger:hover {
+    background-color: rgb(191, 15, 15);
+  }
+
+  &-primary {
+    background-color: blue;
+  }
+  
+  &-primary:hover {
+    background-color: rgb(34, 34, 194);
+  }
+
+  &-secondary {
+    background-color: rgb(90, 87, 87);
+  }
+
+  &-secondary:hover {
+    background-color: rgb(114, 114, 114);
+  }
+
+  &-sm {
+    padding: 0.8rem 2rem;
+  }
+
+  &-lg {
+    padding: 1.2rem 3rem;
+  }
+
+}

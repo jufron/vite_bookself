@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+$light: white;
+$super-dark: black;
+
+// component
+@import 'components/button';
+
+@import 'components/header';
+@import 'components/container1';
+@import 'components/container2';
+@import 'components//modal';
+
